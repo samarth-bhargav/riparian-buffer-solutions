@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     String url = "https://roads.googleapis.com/v1/nearestRoads?points="
                             + qry
                             + "&key="
-                            + "AIzaSyArk8shaLaL2XiO-rMorPU1HTQ7lmsjFQ4";
+                            + "USE_YOUR_ROADS_API_KEY";
                     try{
                         URL api = new URL(url);
                         HttpURLConnection connection = (HttpURLConnection) api.openConnection();
